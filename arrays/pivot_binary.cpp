@@ -27,7 +27,7 @@ int pivotIndex(int arr[], int n) {
 }
 
 int main() {
-    int arr[] = {2, 1, -1};
+    int arr[] = {7, 9, 1, 1, 2, 3, 4};
     int n = sizeof(arr) / sizeof(arr[0]);
     int pivot = pivotIndex(arr, n);
     
